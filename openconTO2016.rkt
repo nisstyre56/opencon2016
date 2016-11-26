@@ -36,7 +36,7 @@
 (slide
  #:title "TextBook Commons"
  (t "Bringing the public domain back to education")
- (scaledpict "/home/wes/goal.png" 0.5))
+ (scaledpict "./goal.png" 0.5))
 
 (slide
  #:title "Problem"
@@ -49,7 +49,7 @@
   ; screen shot here
   (t "Let students do all of that in one step")
   (t "E.g. a search for philosophy courses yields this")
-  (scaledpict "/home/wes/example.png" 0.5)
+  (scaledpict "./example.png" 0.5)
   (t "Students can see any books available and links to better versions"))
 
 (slide
@@ -61,11 +61,11 @@
  (item (t "Available at") (it "https://mgoal.ca/textbooks.csv")))
 
 (slide
-  #:title "Copyright terms"
+  #:title "Copyright creep"
   (item "Copyright creep prevents more recent disciplines from using the public domain")
   (item "Copyright terms continue to increase, currently it is life + 50 years under Canadian law")
   (item "Thanks, Disney")
-  (scaledpict "/home/wes/disney.png" 0.8)
+  (scaledpict "./disney.png" 0.8)
   (item (it "https://en.wikipedia.org/wiki/List_of_countries'_copyright_lengths")))
 
 (slide
@@ -75,7 +75,7 @@
  (item "Manually look at individual courses")
  (item "Go on the book store website")
  (item "Look at individual courses")
- (item "Search for them on the internet archive or gutenber")
+ (item "Search for them on the internet archive or gutenberg.org")
  (t "The aim is to make this into one step"))
 
 (slide
@@ -94,5 +94,6 @@
 
 (slide
  #:title "Future improvements"
- (para "Hoping to add more databases from other schools, more accurate matching, and to make it easier for students to contribute their own notes")
- (t "Anyone who can contribute should feel free"))
+ (para "I'm Hoping to add more databases from other schools, more accurate matching, and to make it easier for students to contribute their own notes")
+ (item (t "Anyone who can contribute should feel free!") (it "https://github.com/nisstyre56/TextbookEngine"))
+ (item (t "source of this talk") (it "https://github.com/nisstyre56/opencon2016")))
